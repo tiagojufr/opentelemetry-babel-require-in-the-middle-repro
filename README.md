@@ -19,3 +19,5 @@ AssertionError [ERR_ASSERTION]: unexpected that there is no Module entry for "<p
 ```
 
 There's a workaround for this issue as suggested by [this comment](https://github.com/elastic/require-in-the-middle/issues/72#issuecomment-1568715875) by defining `BABEL_DISABLE_CACHE=1`. This fix can be tested with the `dev:fix` script in this repo.
+
+Tested with Node.js v18.13.0.
