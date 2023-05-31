@@ -1,7 +1,7 @@
 # opentelemetry-babel-require-in-the-middle-repro
 Reproduction repo for https://github.com/elastic/require-in-the-middle/issues/72
 
-Run `dev` script to see the following error:
+Run `dev` script. Note that the very first run does not fail as @babel/register is creating its cache file. If you run it a 2nd time you should see the following error:
 
 ```
 <path_to_repo>\node_modules\@babel\core\lib\parser\index.js:74
